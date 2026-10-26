@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Proyecto_integrador.archivos</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Proyecto integrador.modelos/Proyecto integrador.modelos.csproj" />
+    <ProjectReference Include="../Librerias/DataBases/DataBases.csproj" />
+  </ItemGroup>
+
+</Project>

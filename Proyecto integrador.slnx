@@ -1,3 +1,14 @@
 <Solution>
-  <Project Path="Proyecto integrador.interfaz/Proyecto integrador.interfaz.csproj" Id="163d4c36-242d-46cf-a72e-a18d637408be" />
+  <Folder Name="/Proyecto integrador/">
+    <Project Path="Proyecto integrador/Proyecto integrador.archivos/Proyecto integrador.archivos.csproj" />
+    <Project Path="Proyecto integrador/Proyecto integrador.comunicacion/Proyecto integrador.comunicacion.csproj" />
+    <Project Path="Proyecto integrador/Proyecto integrador.interfaz/Proyecto integrador.interfaz.csproj" Id="163d4c36-242d-46cf-a72e-a18d637408be" />
+    <Project Path="Proyecto integrador/Proyecto integrador.logica/Proyecto integrador.logica.csproj" />
+    <Project Path="Proyecto integrador/Proyecto integrador.modelos/Proyecto integrador.modelos.csproj" />
+    <Project Path="Proyecto integrador/Proyecto integrador.pruebas/Proyecto integrador.pruebas.csproj" />
+  </Folder>
+  <Folder Name="/Proyecto integrador/Librerias/">
+    <Project Path="Proyecto integrador/Librerias/DataBases/DataBases.csproj" />
+    <Project Path="Proyecto integrador/Librerias/Utilidades/Utilidades.csproj" />
+  </Folder>
 </Solution>

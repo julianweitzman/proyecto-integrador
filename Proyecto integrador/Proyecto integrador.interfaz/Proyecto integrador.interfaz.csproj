@@ -1,5 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="..\Proyecto integrador.modelos\Proyecto integrador.modelos.csproj" />
+    <ProjectReference Include="..\Proyecto integrador.logica\Proyecto integrador.logica.csproj" />
+    <ProjectReference Include="..\Proyecto integrador.comunicacion\Proyecto integrador.comunicacion.csproj" />
+    <ProjectReference Include="..\Proyecto integrador.archivos\Proyecto integrador.archivos.csproj" />
+    <ProjectReference Include="..\Librerias\Utilidades\Utilidades.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>

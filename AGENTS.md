@@ -10,7 +10,7 @@ Este repositorio inicia el proyecto educativo «Juego Guerra» en C#.
 - `Proyecto integrador/Librerias/Documentacion/`: documentación y ejemplos de las bibliotecas.
 - `Proyecto Integrador.md`: consignas y requisitos del juego.
 
-No hay directorios dedicados a pruebas ni recursos gráficos. No edites archivos generados en `bin/` u `obj/`.
+Los proyectos `Proyecto integrador.modelos`, `Proyecto integrador.logica`, `Proyecto integrador.comunicacion` y `Proyecto integrador.archivos` separan las responsabilidades del juego. `Proyecto integrador.pruebas` contiene la configuración de xUnit y referencia los cinco proyectos del juego. Consulta `README.md` para conocer sus dependencias. No edites archivos generados en `bin/` u `obj/`.
 
 ## Compilación y desarrollo
 
@@ -23,7 +23,7 @@ dotnet build "Proyecto integrador/Librerias/DataBases/DataBases.csproj"
 dotnet build "Proyecto integrador/Librerias/Utilidades/Utilidades.csproj"
 ```
 
-Los comandos compilan cada componente y ejecutan la consola. Compila las bibliotecas por separado: la interfaz todavía no declara referencias a ellas. `Proyecto integrador.slnx` contiene una ruta de proyecto que no coincide con su ubicación actual; usa los comandos anteriores hasta corregirla.
+Los comandos compilan cada componente y ejecutan la consola. La solución incluye los ocho proyectos y sus rutas están corregidas. Con un SDK compatible con `.slnx`, como .NET 10, puedes compilar todo con `dotnet build "Proyecto integrador.slnx"` y ejecutar las pruebas con `dotnet test "Proyecto integrador.slnx" --no-build`. Los proyectos mantienen el destino `net8.0`.
 
 ## Estilo y nombres
 
@@ -31,7 +31,7 @@ Usa cuatro espacios y llaves en líneas separadas, siguiendo los archivos existe
 
 ## Verificación
 
-No hay framework de pruebas ni umbral de cobertura configurados. Compila los proyectos afectados y documenta la comprobación manual. Para cambios en CSV, comprueba lectura, escritura, datos inválidos y valores nulos con archivos temporales. Si incorporas pruebas, usa nombres descriptivos como `Metodo_Escenario_ResultadoEsperado` y documenta cómo ejecutarlas.
+El proyecto Pruebas utiliza xUnit; todavía no contiene casos de prueba ni hay un umbral de cobertura configurado. Compila los proyectos afectados y documenta la comprobación manual. Para cambios en CSV, comprueba lectura, escritura, datos inválidos y valores nulos con archivos temporales. Si incorporas pruebas, usa nombres descriptivos como `Metodo_Escenario_ResultadoEsperado` y documenta cómo ejecutarlas.
 
 ## Commits y solicitudes de cambios
 
