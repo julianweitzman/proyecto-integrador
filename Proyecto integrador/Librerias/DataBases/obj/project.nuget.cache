@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "x9XpQ8GLO68=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\julian\\programacion\\DataBases\\DataBases\\DataBases.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\julian\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.31\\microsoft.windowsdesktop.app.ref.8.0.31.nupkg.sha512",
+    "C:\\Users\\julian\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.31\\microsoft.netcore.app.ref.8.0.31.nupkg.sha512",
+    "C:\\Users\\julian\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.31\\microsoft.aspnetcore.app.ref.8.0.31.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error al obtener los datos de vulnerabilidad del paquete: No se puede cargar el índice de servicio del origen https://api.nuget.org/v3/index.json.",
+      "projectPath": "C:\\Users\\julian\\programacion\\DataBases\\DataBases\\DataBases.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\julian\\programacion\\DataBases\\DataBases\\DataBases.csproj",
+      "targetGraphs": []
+    }
+  ]
+}
