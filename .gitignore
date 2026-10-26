@@ -1,0 +1,36 @@
+# Compilación y restauración de .NET (en todos los proyectos)
+[Bb]in/
+[Oo]bj/
+artifacts/
+
+# Estado local de Visual Studio y otros IDE
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Resultados de pruebas y cobertura
+[Tt]est[Rr]esults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Paquetes generados
+*.nupkg
+*.snupkg
+
+# Archivos temporales y del sistema operativo
+*.tmp
+*.bak
+*.log
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Configuración local con secretos
+.env
+.env.*
+!.env.example
+!.env.sample
